@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>templates-BizLand</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="bg-primary">
+      <div class="container">
+        <div class="row d-flex flex-row justify-content-between">
+          <div
+            class="col-lg-6 d-flex flex-row gap-3 col-sm-12 justify-content-sm-center align-items-sm-center"
+          >
+            <p class="text-white">
+              <i class="fa-regular fa-envelope me-1" style="color: #ffffff"></i
+              ><a href="" class="text-white text-decoration-none"
+                >contact@example.com</a
+              >
+            </p>
+            <p class="text-white">
+              <i class="fa-solid fa-mobile" style="color: #ffffff"></i> +1 5589
+              55488 55
+            </p>
+          </div>
+          <div class="col-lg-6 d-lg-flex gx-lg-5 d-none justify-content-lg-end">
+            <ul class="list-inline list-unstyled d-lg-flex">
+              <li class="list-inline-item">
+                <i class="fa-brands fa-twitter" style="color: #ffffff"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fa-brands fa-facebook" style="color: #ffffff"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fa-brands fa-instagram" style="color: #ffffff"></i>
+              </li>
+              <li class="list-inline-item">
+                <i class="fa-brands fa-linkedin" style="color: #ffffff"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!----------------------------------- Navbar --------------------------->
+    <nav
+      class="navbar navbar-expand-lg sticky-top navbar-light bg-light bg-body"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold text-dark fs-3" href="#">
+          BizLand<span class="w-25 text-primary">.</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                id="active"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Drop Down
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#"> Drop Down 1</a></li>
+                <li><a class="dropdown-item" href="#"> Drop Down 2 </a></li>
+                <li><a class="dropdown-item" href="#"> Drop Down 3 </a></li>
+                <li><a class="dropdown-item" href="#"> Drop Down 4 </a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!----------------------------------- Navbar --------------------------->
+
+    <!-- Home section -->
+    <section id="home" class="home_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="content-home col-sm-12 text-md-start content-home">
+            <h1>Welcome to <span class="text-primary"> BizLand</span></h1>
+            <p class="text-light-emphasis fw-medium lh-lg">
+              We are team of talented designers making websites with Bootstrap
+            </p>
+            <div class="mt-4 d-flex flex-row gap-3">
+              <a href="" class="btn btn-primary">GET STARTED</a>
+              <a
+                href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
+                class="video text-decoration-none pt-2 fs-6"
+                ><span
+                  ><i
+                    class="fa-regular fa-circle-play"
+                    style="color: #2a6ee5"
+                  ></i
+                ></span>
+                Watch Video</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="home" class="home_carte my-5">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-lg-3 col-12">
+            <div class="card border border-0 shadow-lg">
+              <div class="card-body text-md-start">
+                <i class="fa-solid fa-basketball fa-2x mb-4"></i>
+                <h6>Lorem Ipsum</h6>
+                <p>
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="card border border-0 shadow-lg">
+              <div class="card-body text-md-start">
+                <i class="fa-solid fa-file fa-2x mb-4"></i>
+                <h6>Sed ut perspiciatis</h6>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="card border border-0 shadow-lg">
+              <div class="card-body text-md-start">
+                <i class="fa-solid fa-clock fa-2x mb-4"></i>
+                <h6>Magni Dolores</h6>
+                <p>
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                  qui officia
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="card border border-0 shadow-lg">
+              <div class="card-body text-md-start">
+                <i class="fa-solid fa-earth-americas fa-2x mb-4"></i>
+                <h6>Nemo Enim</h6>
+                <p>
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home section -->
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper py-5">
+      <div class="container">
+        <div class="row">
+          <div class="first text-center">
+            <button type="button" class="btn text-primary">ABOUT</button>
+            <h3 class="my-3 fw-bold">
+              Find Out More <span class="text-primary">About Us</span>
+            </h3>
+            <p class="parafirst">
+              Ut possimus qui ut temporibus culpa velit eveniet modi <br />
+              omnis est adipisci expedita at voluptas atque vitae <br />
+              autem.
+            </p>
+          </div>
+
+          <div
+            class="content-about d-lg-flex flex-lg-row d-sm-flex flex-sm-column gap-lg-4 gap-sm-5"
+          >
+            <div class="col-lg-6 col-12">
+              <img
+                src="images/about/about.jpeg"
+                alt=""
+                class="w-100 h-75 img-fluid"
+              />
+            </div>
+            <div class="col-lg-6 col-12">
+              <div class="about21 mb-5">
+                <h5 class="title1 fw-bold">
+                  Voluptatem dignissimos provident quasi corporis voluptates sit
+                  assumenda.
+                </h5>
+                <p class="para1 fst-italic fs-6">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+              <div class="about22 d-flex flex-row gap-3">
+                <a class="rond shadow-lg"
+                  ><i class="fa-solid fa-store pt-3" style="color: #106eea"></i
+                ></a>
+                <div class="aboutpara">
+                  <h6>Ullamco laboris nisi ut aliquip consequat</h6>
+                  <p>
+                    Magni facilis facilis repellendus cum excepturi quaerat
+                    praesentium libre trade
+                  </p>
+                </div>
+              </div>
+              <div class="about22 d-flex flex-row gap-3">
+                <a class="rond shadow-lg"
+                  ><i class="fa-solid fa-image pt-3" style="color: #106eea"></i
+                ></a>
+                <div class="aboutpara">
+                  <h6>Magnam soluta odio exercitationem reprehenderi</h6>
+                  <p>
+                    Quo totam dolorum at pariatur aut distinctio dolorum
+                    laudantium illo direna pasata redi
+                  </p>
+                </div>
+              </div>
+              <p class="mt-4">
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit anim id est laborum
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about_wrapper2 py-5">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-lg-6 col-12">
+            <div class="single-progress">
+              <h6 class="fw-bold">HTML</h6>
+              <div class="progress rounded-0">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 100%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <span class="label fw-bold">100%</span>
+            </div>
+            <div class="single-progress mt-4">
+              <h6 class="fw-bold">CSS</h6>
+              <div class="progress rounded-0">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="90"
+                ></div>
+              </div>
+              <span class="label fw-bold">90%</span>
+            </div>
+            <div class="single-progress mt-4">
+              <h6 class="fw-bold">JAVASCRIPT</h6>
+              <div class="progress rounded-0">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 75%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="75"
+                ></div>
+              </div>
+              <span class="label fw-bold">75%</span>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="single-progress">
+              <h6 class="fw-bold">PHP</h6>
+              <div class="progress rounded-0">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="80"
+                ></div>
+              </div>
+              <span class="label fw-bold">80%</span>
+            </div>
+            <div class="single-progress mt-4">
+              <h6 class="fw-bold">WORDPRESS/CMS</h6>
+              <div class="progress rounded-0">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="90"
+                ></div>
+              </div>
+              <span class="label fw-bold">90%</span>
+            </div>
+            <div class="single-progress mt-4">
+              <h6 class="fw-bold">PHOTOSHOP</h6>
+              <div class="progress rounded-0">
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 55%"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="55"
+                ></div>
+              </div>
+              <span class="label fw-bold">55%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about_wrapper3">
+      <div class="container py-5">
+        <div class="row g-3">
+          <div class="col-lg-3 col-12">
+            <div class="card text-center w-100 h-100 border-0">
+              <i class="fa-solid fa-face-smile"></i>
+              <div class="card-body bg-info-subtle py-4">
+                <h5 class="card-title pt-2">232</h5>
+                <p class="card-text">Happy Clients</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="card text-center w-100 h-100 border-0">
+              <i class="fa-solid fa-file"></i>
+              <div class="card-body bg-info-subtle py-4">
+                <h5 class="card-title pt-2">521</h5>
+                <p class="card-text">Projects</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="card text-center w-100 h-100 border-0">
+              <i class="fa-solid fa-headphones"></i>
+              <div class="card-body bg-info-subtle py-4">
+                <h5 class="card-title pt-2">1 463</h5>
+                <p class="card-text">Hours Of Support</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="card text-center w-100 h-100 border-0">
+              <i class="fa-solid fa-users"></i>
+              <div class="card-body bg-info-subtle py-4">
+                <h5 class="card-title pt-2">15</h5>
+                <p class="card-text">Hard Workers</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid bg-info-subtle py-4">
+        <div class="container">
+          <div
+            class="row d-lg-flex flex-lg-row justify-content-center align-items-center d-sms-flex flex-sm-column"
+          >
+            <div
+              class="col-lg-4 col-12 d-flex flex-row justify-content-center gap-5 g-3"
+            >
+              <div class="col-lg-2 col-2">
+                <img
+                  src="images/about/client-1.png"
+                  alt=""
+                  class="img-fluid w-100"
+                />
+              </div>
+              <div class="col-lg-2 col-2">
+                <img
+                  src="images/about/client-2.png"
+                  alt=""
+                  class="img-fluid w-100"
+                />
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-12 d-flex flex-row justify-content-center gap-5 g-3"
+            >
+              <div class="col-lg-2 col-2">
+                <img
+                  src="images/about/client-3.png"
+                  alt=""
+                  class="img-fluid w-100"
+                />
+              </div>
+              <div class="col-lg-2 col-2">
+                <img
+                  src="images/about/client-4.png"
+                  alt=""
+                  class="img-fluid w-100"
+                />
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-12 d-flex flex-row justify-content-center gap-5 g-3"
+            >
+              <div class="col-lg-2 col-2">
+                <img
+                  src="images/about/client-5.png"
+                  alt=""
+                  class="img-fluid w-100"
+                />
+              </div>
+              <div class="col-lg-2 col-2">
+                <img
+                  src="images/about/client-6.png"
+                  alt=""
+                  class="img-fluid w-100"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section -->
+
+    <!-- Services section -->
+    <section id="service" class="service_wrapper my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-4">
+            <button type="button" class="btn text-primary">ABOUT</button>
+            <h3 class="my-3 fw-bold">
+              Check our <span class="text-primary">Services</span>
+            </h3>
+            <p class="parafirst">
+              Ut possimus qui ut temporibus culpa velit eveniet modi <br />
+              omnis est adipisci expedita at voluptas atque vitae <br />
+              autem.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-12">
+            <div
+              class="card border rounded-0 border-info-subtle text-center py-5 px-2"
+            >
+              <div class="card-body"> 
+                <span class=""> <i class="fa-solid fa-basketball fa-2x  mb-4"  style="color: #3b8af2;"></i> </span>
+                <h5 class="card-title fw-bold">Lorem Ipsum</h5>
+
+                <p class="card-text">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div
+              class="card border rounded-0 border-info-subtle text-center py-5 px-2"
+            >
+              <div class="card-body"> 
+                <span class=""> <i class="fa-solid fa-basketball fa-2x  mb-4"  style="color: #3b8af2;"></i> </span>
+                <h5 class="card-title fw-bold">Lorem Ipsum</h5>
+
+                <p class="card-text">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div
+              class="card border rounded-0 border-info-subtle text-center py-5 px-2"
+            >
+              <div class="card-body"> 
+                <span class=""> <i class="fa-solid fa-basketball fa-2x  mb-4"  style="color: #3b8af2;"></i> </span>
+                <h5 class="card-title fw-bold">Lorem Ipsum</h5>
+
+                <p class="card-text">
+                  Voluptatum deleniti atque corrupti quos dolores et quas
+                  molestias excepturi
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services section -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
