@@ -1,0 +1,9 @@
+@media screen and (max-width: 375px) {
+  .Portfolio_wrapper .grille {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+  

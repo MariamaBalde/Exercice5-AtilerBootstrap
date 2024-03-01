@@ -103,13 +103,22 @@ header .container {
 
 /*-----------------------About section---------------------  */
 
-.about_wrapper {
+.about_wrapper,
+.Team_wrapper,
+.Team_wrapper3,
+.Contact_wrapper2,
+.Footer_wrapper {
   background-color: #f6f9fe;
-  /* padding: ; */
+
 }
 
-.about_wrapper .first .btn,
-.service_wrapper .btn {
+.about_wrapper .first #btn,
+.service_wrapper #btn,
+.Portfolio_wrapper #btn,
+.Team_wrapper #btn,
+.Team_wrapper2 #btn,
+.Team_wrapper3 #btn,
+.Contact_wrapper3 #btn{
   background-color: #e7f1fd;
   border-radius: 50px;
   padding: 5px 18px;
@@ -117,8 +126,14 @@ header .container {
   font-weight: bold;
 }
 
-.about_wrapper .first .parafirst ,
-.service_wrapper .parafirst {
+.about_wrapper .first .parafirst,
+.service_wrapper .parafirst,
+.Portfolio_wrapper .parafirst,
+.Team_wrapper .parafirst,
+.Team_wrapper2 .parafirst,
+.Team_wrapper3,
+.parafirst,
+.Contact_wrapper3 .parafirst {
   font-weight: 500;
 }
 
@@ -139,10 +154,10 @@ header .container {
 
 /* -------------------------------about_wrapper2----------------------------- */
 
-.about_wrapper2 .single-progress{
-     /* margin-top: 26px; */
-position: relative;
-overflow: hidden;
+.about_wrapper2 .single-progress {
+  /* margin-top: 26px; */
+  position: relative;
+  overflow: hidden;
 }
 
 .about_wrapper2 .single-progress .progress {
@@ -162,48 +177,205 @@ overflow: hidden;
 .about_wrapper2 .single-progress .label {
   text-align: right;
   position: absolute;
-    right: 0;
-    top: 0;
-    color: var(--text-gray); 
-   font-size: 15px;
+  right: 0;
+  top: 0;
+  color: var(--text-gray);
+  font-size: 15px;
 }
 
-
-.about_wrapper3 .card{
-    position: relative;
-    /* overflow: hidden; */
+.about_wrapper3 .card {
+  position: relative;
+  /* overflow: hidden; */
 }
 
-.about_wrapper3 .card .fa-solid{
-    position: absolute;
-    top: -28px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 24px;
-    background: #106eea;
-    color: #fff;
-    width: 56px;
-    height: 56px;
-    line-height: 0;
-    border-radius: 50px;
-    border: 5px solid #fff;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
+.about_wrapper3 .card .fa-solid {
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  background: #106eea;
+  color: #fff;
+  width: 56px;
+  height: 56px;
+  line-height: 0;
+  border-radius: 50px;
+  border: 5px solid #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
-
 
 /*  */
 
-.service_wrapper .fa-basketball{
-padding: 10px;
-border: 1px solid #e2eefd;
-background-color: #f1f6fe;
+.service_wrapper .container .card:hover {
+  box-shadow: 0 0 50px 5px #f1f6fe;
 }
 
+.service_wrapper .container .fa-solid {
+  padding: 10px;
+  border: 1px solid #e2eefd;
+  background-color: #f1f6fe;
+}
 
+.service_wrapper .container .fa-solid:hover {
+  border: 1px solid #106eea;
+}
 
-.service_wrapper .card-text{
+.service_wrapper .carousel-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.service_wrapper .carousel-inner .carousel-caption {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  left: 0;
+}
+
+.service_wrapper .carousel-inner .carousel-caption img {
+  width: 100px;
+}
+
+.service_wrapper .carousel-inner .carousel-caption h3 {
+  font-size: 0.9rem;
+}
+
+.service_wrapper .carousel-inner .carousel-caption h4 {
+  font-size: 0.8rem;
+}
+
+.service_wrapper .card-text {
+  font-size: 0.7rem;
+}
+
+.Portfolio_wrapper .firstport p:hover {
+  color: #106eea;
+}
+
+.Portfolio_wrapper .grille {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 350px 250px 250px;
+  /* grid-template-rows: auto; */
+  gap: 20px;
+}
+
+.Portfolio_wrapper .grille .one {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.Portfolio_wrapper .grille .two {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.Portfolio_wrapper .grille .three {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.Portfolio_wrapper .grille .four {
+  grid-column: 1/2;
+  grid-row: 2/5;
+}
+
+.Portfolio_wrapper .grille .five {
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+
+.Portfolio_wrapper .grille .six {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.Portfolio_wrapper .grille .seven {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.Portfolio_wrapper .grille .eight {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.Portfolio_wrapper .grille .nine {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+.Team_wrapper .card-title {
+  font-size: 0.9rem;
+}
+
+.Team_wrapper .card-text {
+  font-size: 0.7rem;
+}
+
+.Team_wrapper2 .card-body {
+}
+
+.Team_wrapper2 .card-body .card-text {
+  font-size: 0.7rem;
+}
+
+.Team_wrapper2 .card-footer a {
+  padding: 2px 20px;
+}
+
+.Contact_wrapper .card-body a {
+  border: 1px dotted blue;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  line-height: 35px;
+  font-size: 25px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100%;
+}
+
+.Contact_wrapper .card-title{
+    font-size: 0.9rem;
+}
+
+.Contact_wrapper .card-text,
+.Contact_wrapper2 #parafirst{
     font-size: 0.7rem;
 }
+
+.Contact_wrapper2 h3{
+    font-size: 1.2rem;
+}
+
+
+.Contact_wrapper3 .first .span1,
+.Contact_wrapper3 .first .part2  .para,
+.Contact_wrapper3 .second p,
+.Footer_wrapper p{
+    font-size: 0.7rem;
+}
+
+.Contact_wrapper3 .second h6{
+font-size: 0.9rem;
+}
+
+
+.Contact_wrapper3 .third .social-icon a {
+    width: 38px;
+    height: 38px;
+    line-height: 35px;
+    font-size: 15px;
+    display: inline-block;
+    border: 1px solid blue;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    border-radius: 10%;
+}
+
+
+
